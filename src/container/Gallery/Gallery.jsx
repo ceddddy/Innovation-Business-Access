@@ -10,7 +10,7 @@ import { images } from "../../constants";
 
 import "./Gallery.css";
 
-const galleryImages = [images.gallery01, images.gallery02, images.gallery03, images.gallery04];
+const galleryImages = [images.securitymain, images.timber, images.timberTruck, images.overheadtower, images.solarfield, images.solarPanelHouse, images.securitybadge];
 
 const Gallery = () => {
   const scrollRef = React.useRef(null);

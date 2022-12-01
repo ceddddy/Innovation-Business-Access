@@ -7,11 +7,11 @@ import "./Chef.css";
 const Chef = () => (
   <div className="app__bg app__wrapper section__padding ">
     <div className="app__wrapper_img app__wrapper_img-reverse">
-      <img src={images.chef} alt="chef" />
+      <img src={images.founder} alt="chef" />
     </div>
 
     <div className="app__wrapper_info">
-      <SubHeading title="Chef's Word" />
+      <SubHeading title="Founder's Word" />
       <h1 className="headtext__cormorant">What We Believe In</h1>
 
       <div className="app__chef-content">
@@ -30,7 +30,7 @@ const Chef = () => (
       </div>
       <div className="app__chef-sign">
           <p>Kevin Luo</p>
-          <p className="p__opensans">Chef & Founder</p>
+          <p className="p__opensans">Visionary & Founder</p>
           <img src={images.sign} alt="sign" />
       </div>
     </div>
