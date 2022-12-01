@@ -1,5 +1,10 @@
 .app__header {
   background-color: var(--color-black);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .app__header-h1 {

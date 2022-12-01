@@ -1,12 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { BsFillPlayFill, BsPauseFill } from "react-icons/bs";
-import { meal } from "../../constants";
+import { meal, IntroVideo } from "../../constants";
+// import { IntroVideo } from '../../constants';
 
 import "./Intro.css";
 
 const Intro = () => {
   const [playVideo, setPlayVideo] = useState(false);
-  const vidRef = React.useRef();
+  const vidRef = useRef();
 
   const handleVideo = () => {
     setPlayVideo((prevPlayVideo) => !prevPlayVideo);
@@ -21,7 +22,7 @@ const Intro = () => {
   return (
     <div className="app__video">
       <video
-        src={meal}
+        src={IntroVideo}
         ref={vidRef}
         type="video/mp4"
         loop
@@ -46,3 +47,4 @@ const Intro = () => {
 };
 
 export default Intro;
+
